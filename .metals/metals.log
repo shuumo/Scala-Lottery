@@ -2626,3 +2626,7 @@ WARNING: Unmatched cancel notification for request id 2872
 2023.09.23 20:50:34 INFO  time: compiled scala-lottery in 0.36s
 Sept 23, 2023 8:52:10 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Sept 23, 2023 8:54:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sept 23, 2023 8:54:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
