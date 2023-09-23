@@ -36,7 +36,7 @@ object Main extends App {
 
     score = giveLotteryScore(lotteryArray, userArray)
 
-    //CONTINUE HERE
+    //CONTINUE FROM HERE 
     println(s"Your score is: $score. The correct values are: ")
     for(i <- 0 to 6) {
       print(s" $lotteryArray(i),")
