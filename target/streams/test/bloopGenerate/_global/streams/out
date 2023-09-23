@@ -1,4 +1,4 @@
-[debug] [counting-test] Classpath dependencies List()
-[debug] [counting-test] Dependencies from configurations List(counting)
-[debug] Bloop wrote the configuration of project 'counting-test' to 'D:\jayva\Scala Counting\counting\.bloop\counting-test.json'
-[success] Generated .bloop\counting-test.json
+[debug] [scala-lottery-test] Classpath dependencies List()
+[debug] [scala-lottery-test] Dependencies from configurations List(scala-lottery)
+[debug] Bloop wrote the configuration of project 'scala-lottery-test' to '/Users/arnav/Desktop/Peep/guess/Scala-Lottery/.bloop/scala-lottery-test.json'
+[success] Generated .bloop/scala-lottery-test.json
