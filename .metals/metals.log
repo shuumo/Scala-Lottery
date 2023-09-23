@@ -1696,3 +1696,5 @@ WARNING: Unmatched cancel notification for request id 5690
 2023.09.23 17:46:45 INFO  time: compiled counting in 0.75s
 2023.09.23 17:47:38 INFO  compiling counting (1 scala source)
 2023.09.23 17:47:38 INFO  time: compiled counting in 0.66s
+Sept 23, 2023 5:51:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
