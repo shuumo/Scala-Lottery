@@ -1,0 +1,1698 @@
+2023.09.23 15:44:58 INFO  Started: Metals version 1.0.1 in folders 'D:\jayva\Scala Counting\counting' for client Visual Studio Code 1.82.2.
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:D:\jayva\Scala Counting\counting\.metals\metals (H2 2.1)
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.024s)
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sept 23, 2023 3:44:59 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.035s)
+2023.09.23 15:44:59 INFO  time: initialize in 0.81s
+2023.09.23 15:45:01 WARN  Build server is not auto-connectable.
+2023.09.23 15:45:01 WARN  no build target for: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:45:05 INFO  no build target found for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.23 15:45:06 INFO  running 'C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\arnav\AppData\Local\Temp\metals16120292387251181798\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.09.23 15:45:06 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.6  (this may take some time)...
+2023.09.23 15:45:06 INFO  time: code lens generation in 5.1s
+2023.09.23 15:45:14 WARN  no build target for: D:\jayva\Scala Counting\counting\project\metals.sbt
+2023.09.23 15:45:14 WARN  Could not find semantic tokens for: file:///D:/jayva/Scala%20Counting/counting/project/metals.sbt
+2023.09.23 15:45:14 WARN  Could not find semantic tokens for: file:///D:/jayva/Scala%20Counting/counting/project/metals.sbt
+2023.09.23 15:45:21 WARN  no build target for: D:\jayva\Scala Counting\counting\project\project\metals.sbt
+2023.09.23 15:45:21 WARN  Could not find semantic tokens for: file:///D:/jayva/Scala%20Counting/counting/project/project/metals.sbt
+2023.09.23 15:45:21 WARN  Could not find semantic tokens for: file:///D:/jayva/Scala%20Counting/counting/project/project/metals.sbt
+2023.09.23 15:45:22 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2023.09.23 15:45:24 WARN  no build target for: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:45:25 INFO  [info] welcome to sbt 1.9.6 (Oracle Corporation Java 18.0.1.1)
+2023.09.23 15:45:28 INFO  [info] loading settings for project counting-build-build from metals.sbt ...
+2023.09.23 15:45:29 INFO  [info] loading project definition from D:\jayva\Scala Counting\counting\project\project
+2023.09.23 15:45:35 INFO  [info] loading settings for project counting-build from metals.sbt ...
+2023.09.23 15:45:35 INFO  [info] loading project definition from D:\jayva\Scala Counting\counting\project
+2023.09.23 15:45:46 INFO  [success] Generated .bloop\counting-build.json
+2023.09.23 15:45:46 INFO  [success] Total time: 11 s, completed 23 Sept 2023, 3:45:47 pm
+2023.09.23 15:45:49 INFO  [info] loading settings for project counting from build.sbt ...
+2023.09.23 15:45:49 INFO  [info] set current project to hello-world (in build file:/D:/jayva/Scala%20Counting/counting/)
+2023.09.23 15:45:53 WARN  no build target for: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:46:01 INFO  [success] Generated .bloop\counting-test.json
+2023.09.23 15:46:01 INFO  [success] Generated .bloop\counting.json
+2023.09.23 15:46:01 INFO  [success] Total time: 11 s, completed 23 Sept 2023, 3:46:01 pm
+2023.09.23 15:46:01 INFO  time: ran 'sbt bloopInstall' in 55s
+2023.09.23 15:46:01 INFO  Attempting to connect to the build server...
+2023.09.23 15:46:01 INFO  Setting up current java home C:\Program Files\Java\jdk-18.0.1.1 in C:\Users\arnav\.bloop\bloop.json
+2023.09.23 15:46:12 WARN  no build target for: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+Sept 23, 2023 3:46:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:470)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Sept 23, 2023 3:46:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:470)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Sept 23, 2023 3:46:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:470)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Sept 23, 2023 3:46:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:470)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Sept 23, 2023 3:46:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:470)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Sept 23, 2023 3:46:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:470)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.09.23 15:46:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\jayva\Scala Counting\counting\.metals\bsp.trace.json or C:\Users\arnav\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.23 15:46:25 INFO  Attempting to connect to the build server...
+2023.09.23 15:46:25 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\arnav\.bloop\bloop.json
+2023.09.23 15:46:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\jayva\Scala Counting\counting\project\.metals\bsp.trace.json or C:\Users\arnav\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.23 15:46:25 WARN  no build target for: D:\jayva\Scala Counting\counting\build.sbt
+2023.09.23 15:46:25 WARN  Could not find semantic tokens for: file:///D:/jayva/Scala%20Counting/counting/build.sbt
+2023.09.23 15:46:25 WARN  Could not find semantic tokens for: file:///D:/jayva/Scala%20Counting/counting/build.sbt
+2023.09.23 15:46:29 INFO  time: Connected to build server in 27s
+2023.09.23 15:46:29 INFO  Connected to Build server: Bloop v1.5.8
+2023.09.23 15:46:29 INFO  time: Imported build in 0.21s
+Sept 23, 2023 3:46:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$.<clinit>(DebugProvider.scala:923)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$1(DebugProvider.scala:341)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:342)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:476)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.09.23 15:46:42 INFO  time: indexed workspace in 12s
+2023.09.23 15:46:43 INFO  compiling counting (1 scala source)
+2023.09.23 15:46:58 INFO  time: compiled counting in 15s
+Sept 23, 2023 3:47:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:919)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:371)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:342)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:476)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Sept 23, 2023 3:48:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:919)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:371)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:342)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:476)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.09.23 15:48:27 INFO  compiling counting (1 scala source)
+2023.09.23 15:48:27 INFO  time: compiled counting in 0.35s
+2023.09.23 15:48:32 INFO  compiling counting (1 scala source)
+2023.09.23 15:48:32 INFO  time: compiled counting in 0.14s
+2023.09.23 15:48:39 INFO  compiling counting (1 scala source)
+2023.09.23 15:48:39 INFO  time: compiled counting in 0.12s
+2023.09.23 15:48:43 INFO  compiling counting (1 scala source)
+2023.09.23 15:48:44 INFO  time: compiled counting in 1.17s
+2023.09.23 15:48:53 INFO  compiling counting (1 scala source)
+2023.09.23 15:48:53 INFO  time: compiled counting in 0.12s
+2023.09.23 15:49:39 INFO  compiling counting (1 scala source)
+2023.09.23 15:49:39 INFO  time: compiled counting in 0.77s
+2023.09.23 15:49:46 INFO  compiling counting (1 scala source)
+2023.09.23 15:49:47 INFO  time: compiled counting in 1.16s
+2023.09.23 15:49:54 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/Object.java
+Uri: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/Object.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:670)
+	scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Sept 23, 2023 3:49:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Java/jdk-18.0.1.1/lib/src.zip%21/java.base/java/lang/Object.java",
+      "languageId": "java",
+      "version": 1,
+      "text": "/*\n * Copyright (c) 1994, 2021, Oracle and/or its affiliates. All rights reserved.\n * ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n */\n\npackage java.lang;\n\nimport jdk.internal.vm.annotation.IntrinsicCandidate;\n\n/**\n * Class {@code Object} is the root of the class hierarchy.\n * Every class has {@code Object} as a superclass. All objects,\n * including arrays, implement the methods of this class.\n *\n * @see     java.lang.Class\n * @since   1.0\n */\npublic class Object {\n\n    /**\n     * Constructs a new object.\n     */\n    @IntrinsicCandidate\n    public Object() {}\n\n    /**\n     * Returns the runtime class of this {@code Object}. The returned\n     * {@code Class} object is the object that is locked by {@code\n     * static synchronized} methods of the represented class.\n     *\n     * \u003cp\u003e\u003cb\u003eThe actual result type is {@code Class\u003c? extends |X|\u003e}\n     * where {@code |X|} is the erasure of the static type of the\n     * expression on which {@code getClass} is called.\u003c/b\u003e For\n     * example, no cast is required in this code fragment:\u003c/p\u003e\n     *\n     * \u003cp\u003e\n     * {@code Number n \u003d 0;                             }\u003cbr\u003e\n     * {@code Class\u003c? extends Number\u003e c \u003d n.getClass(); }\n     * \u003c/p\u003e\n     *\n     * @return The {@code Class} object that represents the runtime\n     *         class of this object.\n     * @jls 15.8.2 Class Literals\n     */\n    @IntrinsicCandidate\n    public final native Class\u003c?\u003e getClass();\n\n    /**\n     * Returns a hash code value for the object. This method is\n     * supported for the benefit of hash tables such as those provided by\n     * {@link java.util.HashMap}.\n     * \u003cp\u003e\n     * The general contract of {@code hashCode} is:\n     * \u003cul\u003e\n     * \u003cli\u003eWhenever it is invoked on the same object more than once during\n     *     an execution of a Java application, the {@code hashCode} method\n     *     must consistently return the same integer, provided no information\n     *     used in {@code equals} comparisons on the object is modified.\n     *     This integer need not remain consistent from one execution of an\n     *     application to another execution of the same application.\n     * \u003cli\u003eIf two objects are equal according to the {@link\n     *     equals(Object) equals} method, then calling the {@code\n     *     hashCode} method on each of the two objects must produce the\n     *     same integer result.\n     * \u003cli\u003eIt is \u003cem\u003enot\u003c/em\u003e required that if two objects are unequal\n     *     according to the {@link equals(Object) equals} method, then\n     *     calling the {@code hashCode} method on each of the two objects\n     *     must produce distinct integer results.  However, the programmer\n     *     should be aware that producing distinct integer results for\n     *     unequal objects may improve the performance of hash tables.\n     * \u003c/ul\u003e\n     *\n     * @implSpec\n     * As far as is reasonably practical, the {@code hashCode} method defined\n     * by class {@code Object} returns distinct integers for distinct objects.\n     *\n     * @return  a hash code value for this object.\n     * @see     java.lang.Object#equals(java.lang.Object)\n     * @see     java.lang.System#identityHashCode\n     */\n    @IntrinsicCandidate\n    public native int hashCode();\n\n    /**\n     * Indicates whether some other object is \"equal to\" this one.\n     * \u003cp\u003e\n     * The {@code equals} method implements an equivalence relation\n     * on non-null object references:\n     * \u003cul\u003e\n     * \u003cli\u003eIt is \u003ci\u003ereflexive\u003c/i\u003e: for any non-null reference value\n     *     {@code x}, {@code x.equals(x)} should return\n     *     {@code true}.\n     * \u003cli\u003eIt is \u003ci\u003esymmetric\u003c/i\u003e: for any non-null reference values\n     *     {@code x} and {@code y}, {@code x.equals(y)}\n     *     should return {@code true} if and only if\n     *     {@code y.equals(x)} returns {@code true}.\n     * \u003cli\u003eIt is \u003ci\u003etransitive\u003c/i\u003e: for any non-null reference values\n     *     {@code x}, {@code y}, and {@code z}, if\n     *     {@code x.equals(y)} returns {@code true} and\n     *     {@code y.equals(z)} returns {@code true}, then\n     *     {@code x.equals(z)} should return {@code true}.\n     * \u003cli\u003eIt is \u003ci\u003econsistent\u003c/i\u003e: for any non-null reference values\n     *     {@code x} and {@code y}, multiple invocations of\n     *     {@code x.equals(y)} consistently return {@code true}\n     *     or consistently return {@code false}, provided no\n     *     information used in {@code equals} comparisons on the\n     *     objects is modified.\n     * \u003cli\u003eFor any non-null reference value {@code x},\n     *     {@code x.equals(null)} should return {@code false}.\n     * \u003c/ul\u003e\n     *\n     * \u003cp\u003e\n     * An equivalence relation partitions the elements it operates on\n     * into \u003ci\u003eequivalence classes\u003c/i\u003e; all the members of an\n     * equivalence class are equal to each other. Members of an\n     * equivalence class are substitutable for each other, at least\n     * for some purposes.\n     *\n     * @implSpec\n     * The {@code equals} method for class {@code Object} implements\n     * the most discriminating possible equivalence relation on objects;\n     * that is, for any non-null reference values {@code x} and\n     * {@code y}, this method returns {@code true} if and only\n     * if {@code x} and {@code y} refer to the same object\n     * ({@code x \u003d\u003d y} has the value {@code true}).\n     *\n     * In other words, under the reference equality equivalence\n     * relation, each equivalence class only has a single element.\n     *\n     * @apiNote\n     * It is generally necessary to override the {@link hashCode hashCode}\n     * method whenever this method is overridden, so as to maintain the\n     * general contract for the {@code hashCode} method, which states\n     * that equal objects must have equal hash codes.\n     *\n     * @param   obj   the reference object with which to compare.\n     * @return  {@code true} if this object is the same as the obj\n     *          argument; {@code false} otherwise.\n     * @see     #hashCode()\n     * @see     java.util.HashMap\n     */\n    public boolean equals(Object obj) {\n        return (this \u003d\u003d obj);\n    }\n\n    /**\n     * Creates and returns a copy of this object.  The precise meaning\n     * of \"copy\" may depend on the class of the object. The general\n     * intent is that, for any object {@code x}, the expression:\n     * \u003cblockquote\u003e\n     * \u003cpre\u003e\n     * x.clone() !\u003d x\u003c/pre\u003e\u003c/blockquote\u003e\n     * will be true, and that the expression:\n     * \u003cblockquote\u003e\n     * \u003cpre\u003e\n     * x.clone().getClass() \u003d\u003d x.getClass()\u003c/pre\u003e\u003c/blockquote\u003e\n     * will be {@code true}, but these are not absolute requirements.\n     * While it is typically the case that:\n     * \u003cblockquote\u003e\n     * \u003cpre\u003e\n     * x.clone().equals(x)\u003c/pre\u003e\u003c/blockquote\u003e\n     * will be {@code true}, this is not an absolute requirement.\n     * \u003cp\u003e\n     * By convention, the returned object should be obtained by calling\n     * {@code super.clone}.  If a class and all of its superclasses (except\n     * {@code Object}) obey this convention, it will be the case that\n     * {@code x.clone().getClass() \u003d\u003d x.getClass()}.\n     * \u003cp\u003e\n     * By convention, the object returned by this method should be independent\n     * of this object (which is being cloned).  To achieve this independence,\n     * it may be necessary to modify one or more fields of the object returned\n     * by {@code super.clone} before returning it.  Typically, this means\n     * copying any mutable objects that comprise the internal \"deep structure\"\n     * of the object being cloned and replacing the references to these\n     * objects with references to the copies.  If a class contains only\n     * primitive fields or references to immutable objects, then it is usually\n     * the case that no fields in the object returned by {@code super.clone}\n     * need to be modified.\n     *\n     * @implSpec\n     * The method {@code clone} for class {@code Object} performs a\n     * specific cloning operation. First, if the class of this object does\n     * not implement the interface {@code Cloneable}, then a\n     * {@code CloneNotSupportedException} is thrown. Note that all arrays\n     * are considered to implement the interface {@code Cloneable} and that\n     * the return type of the {@code clone} method of an array type {@code T[]}\n     * is {@code T[]} where T is any reference or primitive type.\n     * Otherwise, this method creates a new instance of the class of this\n     * object and initializes all its fields with exactly the contents of\n     * the corresponding fields of this object, as if by assignment; the\n     * contents of the fields are not themselves cloned. Thus, this method\n     * performs a \"shallow copy\" of this object, not a \"deep copy\" operation.\n     * \u003cp\u003e\n     * The class {@code Object} does not itself implement the interface\n     * {@code Cloneable}, so calling the {@code clone} method on an object\n     * whose class is {@code Object} will result in throwing an\n     * exception at run time.\n     *\n     * @return     a clone of this instance.\n     * @throws  CloneNotSupportedException  if the object\u0027s class does not\n     *               support the {@code Cloneable} interface. Subclasses\n     *               that override the {@code clone} method can also\n     *               throw this exception to indicate that an instance cannot\n     *               be cloned.\n     * @see java.lang.Cloneable\n     */\n    @IntrinsicCandidate\n    protected native Object clone() throws CloneNotSupportedException;\n\n    /**\n     * Returns a string representation of the object.\n     * @apiNote\n     * In general, the\n     * {@code toString} method returns a string that\n     * \"textually represents\" this object. The result should\n     * be a concise but informative representation that is easy for a\n     * person to read.\n     * It is recommended that all subclasses override this method.\n     * The string output is not necessarily stable over time or across\n     * JVM invocations.\n     * @implSpec\n     * The {@code toString} method for class {@code Object}\n     * returns a string consisting of the name of the class of which the\n     * object is an instance, the at-sign character `{@code @}\u0027, and\n     * the unsigned hexadecimal representation of the hash code of the\n     * object. In other words, this method returns a string equal to the\n     * value of:\n     * \u003cblockquote\u003e\n     * \u003cpre\u003e\n     * getClass().getName() + \u0027@\u0027 + Integer.toHexString(hashCode())\n     * \u003c/pre\u003e\u003c/blockquote\u003e\n     *\n     * @return  a string representation of the object.\n     */\n    public String toString() {\n        return getClass().getName() + \"@\" + Integer.toHexString(hashCode());\n    }\n\n    /**\n     * Wakes up a single thread that is waiting on this object\u0027s\n     * monitor. If any threads are waiting on this object, one of them\n     * is chosen to be awakened. The choice is arbitrary and occurs at\n     * the discretion of the implementation. A thread waits on an object\u0027s\n     * monitor by calling one of the {@code wait} methods.\n     * \u003cp\u003e\n     * The awakened thread will not be able to proceed until the current\n     * thread relinquishes the lock on this object. The awakened thread will\n     * compete in the usual manner with any other threads that might be\n     * actively competing to synchronize on this object; for example, the\n     * awakened thread enjoys no reliable privilege or disadvantage in being\n     * the next thread to lock this object.\n     * \u003cp\u003e\n     * This method should only be called by a thread that is the owner\n     * of this object\u0027s monitor. A thread becomes the owner of the\n     * object\u0027s monitor in one of three ways:\n     * \u003cul\u003e\n     * \u003cli\u003eBy executing a synchronized instance method of that object.\n     * \u003cli\u003eBy executing the body of a {@code synchronized} statement\n     *     that synchronizes on the object.\n     * \u003cli\u003eFor objects of type {@code Class,} by executing a\n     *     static synchronized method of that class.\n     * \u003c/ul\u003e\n     * \u003cp\u003e\n     * Only one thread at a time can own an object\u0027s monitor.\n     *\n     * @throws  IllegalMonitorStateException  if the current thread is not\n     *               the owner of this object\u0027s monitor.\n     * @see        java.lang.Object#notifyAll()\n     * @see        java.lang.Object#wait()\n     */\n    @IntrinsicCandidate\n    public final native void notify();\n\n    /**\n     * Wakes up all threads that are waiting on this object\u0027s monitor. A\n     * thread waits on an object\u0027s monitor by calling one of the\n     * {@code wait} methods.\n     * \u003cp\u003e\n     * The awakened threads will not be able to proceed until the current\n     * thread relinquishes the lock on this object. The awakened threads\n     * will compete in the usual manner with any other threads that might\n     * be actively competing to synchronize on this object; for example,\n     * the awakened threads enjoy no reliable privilege or disadvantage in\n     * being the next thread to lock this object.\n     * \u003cp\u003e\n     * This method should only be called by a thread that is the owner\n     * of this object\u0027s monitor. See the {@code notify} method for a\n     * description of the ways in which a thread can become the owner of\n     * a monitor.\n     *\n     * @throws  IllegalMonitorStateException  if the current thread is not\n     *               the owner of this object\u0027s monitor.\n     * @see        java.lang.Object#notify()\n     * @see        java.lang.Object#wait()\n     */\n    @IntrinsicCandidate\n    public final native void notifyAll();\n\n    /**\n     * Causes the current thread to wait until it is awakened, typically\n     * by being \u003cem\u003enotified\u003c/em\u003e or \u003cem\u003einterrupted\u003c/em\u003e.\n     * \u003cp\u003e\n     * In all respects, this method behaves as if {@code wait(0L, 0)}\n     * had been called. See the specification of the {@link #wait(long, int)} method\n     * for details.\n     *\n     * @throws IllegalMonitorStateException if the current thread is not\n     *         the owner of the object\u0027s monitor\n     * @throws InterruptedException if any thread interrupted the current thread before or\n     *         while the current thread was waiting. The \u003cem\u003einterrupted status\u003c/em\u003e of the\n     *         current thread is cleared when this exception is thrown.\n     * @see    #notify()\n     * @see    #notifyAll()\n     * @see    #wait(long)\n     * @see    #wait(long, int)\n     */\n    public final void wait() throws InterruptedException {\n        wait(0L);\n    }\n\n    /**\n     * Causes the current thread to wait until it is awakened, typically\n     * by being \u003cem\u003enotified\u003c/em\u003e or \u003cem\u003einterrupted\u003c/em\u003e, or until a\n     * certain amount of real time has elapsed.\n     * \u003cp\u003e\n     * In all respects, this method behaves as if {@code wait(timeoutMillis, 0)}\n     * had been called. See the specification of the {@link #wait(long, int)} method\n     * for details.\n     *\n     * @param  timeoutMillis the maximum time to wait, in milliseconds\n     * @throws IllegalArgumentException if {@code timeoutMillis} is negative\n     * @throws IllegalMonitorStateException if the current thread is not\n     *         the owner of the object\u0027s monitor\n     * @throws InterruptedException if any thread interrupted the current thread before or\n     *         while the current thread was waiting. The \u003cem\u003einterrupted status\u003c/em\u003e of the\n     *         current thread is cleared when this exception is thrown.\n     * @see    #notify()\n     * @see    #notifyAll()\n     * @see    #wait()\n     * @see    #wait(long, int)\n     */\n    public final native void wait(long timeoutMillis) throws InterruptedException;\n\n    /**\n     * Causes the current thread to wait until it is awakened, typically\n     * by being \u003cem\u003enotified\u003c/em\u003e or \u003cem\u003einterrupted\u003c/em\u003e, or until a\n     * certain amount of real time has elapsed.\n     * \u003cp\u003e\n     * The current thread must own this object\u0027s monitor lock. See the\n     * {@link #notify notify} method for a description of the ways in which\n     * a thread can become the owner of a monitor lock.\n     * \u003cp\u003e\n     * This method causes the current thread (referred to here as \u003cvar\u003eT\u003c/var\u003e) to\n     * place itself in the wait set for this object and then to relinquish any\n     * and all synchronization claims on this object. Note that only the locks\n     * on this object are relinquished; any other objects on which the current\n     * thread may be synchronized remain locked while the thread waits.\n     * \u003cp\u003e\n     * Thread \u003cvar\u003eT\u003c/var\u003e then becomes disabled for thread scheduling purposes\n     * and lies dormant until one of the following occurs:\n     * \u003cul\u003e\n     * \u003cli\u003eSome other thread invokes the {@code notify} method for this\n     * object and thread \u003cvar\u003eT\u003c/var\u003e happens to be arbitrarily chosen as\n     * the thread to be awakened.\n     * \u003cli\u003eSome other thread invokes the {@code notifyAll} method for this\n     * object.\n     * \u003cli\u003eSome other thread {@linkplain Thread#interrupt() interrupts}\n     * thread \u003cvar\u003eT\u003c/var\u003e.\n     * \u003cli\u003eThe specified amount of real time has elapsed, more or less.\n     * The amount of real time, in nanoseconds, is given by the expression\n     * {@code 1000000 * timeoutMillis + nanos}. If {@code timeoutMillis} and {@code nanos}\n     * are both zero, then real time is not taken into consideration and the\n     * thread waits until awakened by one of the other causes.\n     * \u003cli\u003eThread \u003cvar\u003eT\u003c/var\u003e is awakened spuriously. (See below.)\n     * \u003c/ul\u003e\n     * \u003cp\u003e\n     * The thread \u003cvar\u003eT\u003c/var\u003e is then removed from the wait set for this\n     * object and re-enabled for thread scheduling. It competes in the\n     * usual manner with other threads for the right to synchronize on the\n     * object; once it has regained control of the object, all its\n     * synchronization claims on the object are restored to the status quo\n     * ante - that is, to the situation as of the time that the {@code wait}\n     * method was invoked. Thread \u003cvar\u003eT\u003c/var\u003e then returns from the\n     * invocation of the {@code wait} method. Thus, on return from the\n     * {@code wait} method, the synchronization state of the object and of\n     * thread {@code T} is exactly as it was when the {@code wait} method\n     * was invoked.\n     * \u003cp\u003e\n     * A thread can wake up without being notified, interrupted, or timing out, a\n     * so-called \u003cem\u003espurious wakeup\u003c/em\u003e.  While this will rarely occur in practice,\n     * applications must guard against it by testing for the condition that should\n     * have caused the thread to be awakened, and continuing to wait if the condition\n     * is not satisfied. See the example below.\n     * \u003cp\u003e\n     * For more information on this topic, see section 14.2,\n     * \"Condition Queues,\" in Brian Goetz and others\u0027 \u003cem\u003eJava Concurrency\n     * in Practice\u003c/em\u003e (Addison-Wesley, 2006) or Item 69 in Joshua\n     * Bloch\u0027s \u003cem\u003eEffective Java, Second Edition\u003c/em\u003e (Addison-Wesley,\n     * 2008).\n     * \u003cp\u003e\n     * If the current thread is {@linkplain java.lang.Thread#interrupt() interrupted}\n     * by any thread before or while it is waiting, then an {@code InterruptedException}\n     * is thrown.  The \u003cem\u003einterrupted status\u003c/em\u003e of the current thread is cleared when\n     * this exception is thrown. This exception is not thrown until the lock status of\n     * this object has been restored as described above.\n     *\n     * @apiNote\n     * The recommended approach to waiting is to check the condition being awaited in\n     * a {@code while} loop around the call to {@code wait}, as shown in the example\n     * below. Among other things, this approach avoids problems that can be caused\n     * by spurious wakeups.\n     *\n     * \u003cpre\u003e{@code\n     *     synchronized (obj) {\n     *         while (\u003ccondition does not hold\u003e and \u003ctimeout not exceeded\u003e) {\n     *             long timeoutMillis \u003d ... ; // recompute timeout values\n     *             int nanos \u003d ... ;\n     *             obj.wait(timeoutMillis, nanos);\n     *         }\n     *         ... // Perform action appropriate to condition or timeout\n     *     }\n     * }\u003c/pre\u003e\n     *\n     * @param  timeoutMillis the maximum time to wait, in milliseconds\n     * @param  nanos   additional time, in nanoseconds, in the range 0-999999 inclusive\n     * @throws IllegalArgumentException if {@code timeoutMillis} is negative,\n     *         or if the value of {@code nanos} is out of range\n     * @throws IllegalMonitorStateException if the current thread is not\n     *         the owner of the object\u0027s monitor\n     * @throws InterruptedException if any thread interrupted the current thread before or\n     *         while the current thread was waiting. The \u003cem\u003einterrupted status\u003c/em\u003e of the\n     *         current thread is cleared when this exception is thrown.\n     * @see    #notify()\n     * @see    #notifyAll()\n     * @see    #wait()\n     * @see    #wait(long)\n     */\n    public final void wait(long timeoutMillis, int nanos) throws InterruptedException {\n        if (timeoutMillis \u003c 0) {\n            throw new IllegalArgumentException(\"timeoutMillis value is negative\");\n        }\n\n        if (nanos \u003c 0 || nanos \u003e 999999) {\n            throw new IllegalArgumentException(\n                                \"nanosecond timeout value out of range\");\n        }\n\n        if (nanos \u003e 0 \u0026\u0026 timeoutMillis \u003c Long.MAX_VALUE) {\n            timeoutMillis++;\n        }\n\n        wait(timeoutMillis);\n    }\n\n    /**\n     * Called by the garbage collector on an object when garbage collection\n     * determines that there are no more references to the object.\n     * A subclass overrides the {@code finalize} method to dispose of\n     * system resources or to perform other cleanup.\n     * \u003cp\u003e\n     * \u003cb\u003eWhen running in a Java virtual machine in which finalization has been\n     * disabled or removed, the garbage collector will never call\n     * {@code finalize()}. In a Java virtual machine in which finalization is\n     * enabled, the garbage collector might call {@code finalize} only after an\n     * indefinite delay.\u003c/b\u003e\n     * \u003cp\u003e\n     * The general contract of {@code finalize} is that it is invoked\n     * if and when the Java virtual\n     * machine has determined that there is no longer any\n     * means by which this object can be accessed by any thread that has\n     * not yet died, except as a result of an action taken by the\n     * finalization of some other object or class which is ready to be\n     * finalized. The {@code finalize} method may take any action, including\n     * making this object available again to other threads; the usual purpose\n     * of {@code finalize}, however, is to perform cleanup actions before\n     * the object is irrevocably discarded. For example, the finalize method\n     * for an object that represents an input/output connection might perform\n     * explicit I/O transactions to break the connection before the object is\n     * permanently discarded.\n     * \u003cp\u003e\n     * The {@code finalize} method of class {@code Object} performs no\n     * special action; it simply returns normally. Subclasses of\n     * {@code Object} may override this definition.\n     * \u003cp\u003e\n     * The Java programming language does not guarantee which thread will\n     * invoke the {@code finalize} method for any given object. It is\n     * guaranteed, however, that the thread that invokes finalize will not\n     * be holding any user-visible synchronization locks when finalize is\n     * invoked. If an uncaught exception is thrown by the finalize method,\n     * the exception is ignored and finalization of that object terminates.\n     * \u003cp\u003e\n     * After the {@code finalize} method has been invoked for an object, no\n     * further action is taken until the Java virtual machine has again\n     * determined that there is no longer any means by which this object can\n     * be accessed by any thread that has not yet died, including possible\n     * actions by other objects or classes which are ready to be finalized,\n     * at which point the object may be discarded.\n     * \u003cp\u003e\n     * The {@code finalize} method is never invoked more than once by a Java\n     * virtual machine for any given object.\n     * \u003cp\u003e\n     * Any exception thrown by the {@code finalize} method causes\n     * the finalization of this object to be halted, but is otherwise\n     * ignored.\n     *\n     * @apiNote\n     * Classes that embed non-heap resources have many options\n     * for cleanup of those resources. The class must ensure that the\n     * lifetime of each instance is longer than that of any resource it embeds.\n     * {@link java.lang.ref.Reference#reachabilityFence} can be used to ensure that\n     * objects remain reachable while resources embedded in the object are in use.\n     * \u003cp\u003e\n     * A subclass should avoid overriding the {@code finalize} method\n     * unless the subclass embeds non-heap resources that must be cleaned up\n     * before the instance is collected.\n     * Finalizer invocations are not automatically chained, unlike constructors.\n     * If a subclass overrides {@code finalize} it must invoke the superclass\n     * finalizer explicitly.\n     * To guard against exceptions prematurely terminating the finalize chain,\n     * the subclass should use a {@code try-finally} block to ensure\n     * {@code super.finalize()} is always invoked. For example,\n     * \u003cpre\u003e{@code      @Override\n     *     protected void finalize() throws Throwable {\n     *         try {\n     *             ... // cleanup subclass state\n     *         } finally {\n     *             super.finalize();\n     *         }\n     *     }\n     * }\u003c/pre\u003e\n     *\n     * @deprecated Finalization is deprecated and subject to removal in a future\n     * release. The use of finalization can lead to problems with security,\n     * performance, and reliability.\n     * See \u003ca href\u003d\"https://openjdk.java.net/jeps/421\"\u003eJEP 421\u003c/a\u003e for\n     * discussion and alternatives.\n     * \u003cp\u003e\n     * Subclasses that override {@code finalize} to perform cleanup should use\n     * alternative cleanup mechanisms and remove the {@code finalize} method.\n     * Use {@link java.lang.ref.Cleaner} and\n     * {@link java.lang.ref.PhantomReference} as safer ways to release resources\n     * when an object becomes unreachable. Alternatively, add a {@code close}\n     * method to explicitly release resources, and implement\n     * {@code AutoCloseable} to enable use of the {@code try}-with-resources\n     * statement.\n     * \u003cp\u003e\n     * This method will remain in place until finalizers have been removed from\n     * most existing code.\n     *\n     * @throws Throwable the {@code Exception} raised by this method\n     * @see java.lang.ref.WeakReference\n     * @see java.lang.ref.PhantomReference\n     * @jls 12.6 Finalization of Class Instances\n     */\n    @Deprecated(since\u003d\"9\", forRemoval\u003dtrue)\n    protected void finalize() throws Throwable { }\n}\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/Object.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:319)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/Object.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2973)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3144)
+	at java.base/java.net.URI$Parser.parse(URI.java:3180)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 22 more
+
+Sept 23, 2023 3:49:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Java/jdk-18.0.1.1/lib/src.zip%21/java.base/java/lang/Object.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/Object.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:329)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/Object.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2973)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3144)
+	at java.base/java.net.URI$Parser.parse(URI.java:3180)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 22 more
+
+Sept 23, 2023 3:49:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 208
+Sept 23, 2023 3:49:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 213
+Sept 23, 2023 3:49:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 215
+2023.09.23 15:50:00 INFO  compiling counting (1 scala source)
+2023.09.23 15:50:00 INFO  time: compiled counting in 0.12s
+2023.09.23 15:50:01 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:05 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:09 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:09 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:09 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:15 INFO  compiling counting (1 scala source)
+2023.09.23 15:50:15 INFO  time: compiled counting in 56ms
+2023.09.23 15:50:15 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:15 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:24 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:25 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:25 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:25 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:25 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:25 INFO  compiling counting (1 scala source)
+2023.09.23 15:50:25 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:50:25 INFO  time: compiled counting in 0.77s
+2023.09.23 15:50:57 INFO  compiling counting (1 scala source)
+2023.09.23 15:50:57 INFO  time: compiled counting in 0.85s
+2023.09.23 15:51:11 INFO  compiling counting (1 scala source)
+2023.09.23 15:51:11 INFO  time: compiled counting in 0.61s
+2023.09.23 15:51:21 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:51:21 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:51:21 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 15:51:21 INFO  compiling counting (1 scala source)
+2023.09.23 15:51:21 INFO  time: compiled counting in 0.8s
+Sept 23, 2023 3:52:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 371
+Sept 23, 2023 3:52:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 372
+2023.09.23 15:52:31 ERROR Failed to tokenize input for semantic tokens for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:3: error: unclosed character literal
+  println('')
+          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:440)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:445)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.23 15:52:32 INFO  compiling counting (1 scala source)
+2023.09.23 15:52:32 INFO  time: compiled counting in 0.62s
+2023.09.23 16:50:31 INFO  compiling counting (1 scala source)
+2023.09.23 16:50:31 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:50:31 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:50:31 INFO  time: compiled counting in 0.49s
+2023.09.23 16:50:43 INFO  compiling counting (1 scala source)
+2023.09.23 16:50:43 INFO  time: compiled counting in 0.43s
+2023.09.23 16:50:43 INFO  compiling counting (1 scala source)
+2023.09.23 16:50:43 INFO  time: compiled counting in 0.15s
+2023.09.23 16:51:58 INFO  compiling counting (1 scala source)
+2023.09.23 16:51:58 INFO  time: compiled counting in 0.49s
+2023.09.23 16:52:06 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:52:06 INFO  compiling counting (1 scala source)
+2023.09.23 16:52:06 INFO  time: compiled counting in 0.44s
+2023.09.23 16:52:33 INFO  compiling counting (1 scala source)
+2023.09.23 16:52:33 INFO  time: compiled counting in 0.57s
+2023.09.23 16:52:35 INFO  compiling counting (1 scala source)
+2023.09.23 16:52:35 INFO  time: compiled counting in 0.73s
+Sept 23, 2023 4:54:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 642
+2023.09.23 16:54:34 INFO  compiling counting (1 scala source)
+2023.09.23 16:54:34 INFO  time: compiled counting in 0.75s
+2023.09.23 16:55:39 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:55:39 INFO  compiling counting (1 scala source)
+2023.09.23 16:55:39 INFO  time: compiled counting in 91ms
+2023.09.23 16:55:39 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:55:39 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:55:39 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:55:42 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:55:42 INFO  compiling counting (1 scala source)
+2023.09.23 16:55:42 INFO  time: compiled counting in 0.49s
+2023.09.23 16:55:48 INFO  compiling counting (1 scala source)
+2023.09.23 16:55:48 INFO  time: compiled counting in 0.44s
+2023.09.23 16:55:49 ERROR Failed to tokenize input for semantic tokens for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: Invalid literal number
+  0r
+  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:856)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:900)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:908)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:365)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Sept 23, 2023 4:55:52 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Range [124, 124 + -1) out of bounds for length 136
+2023.09.23 16:55:52 INFO  compiling counting (1 scala source)
+2023.09.23 16:55:52 INFO  time: compiled counting in 71ms
+2023.09.23 16:55:52 INFO  compiling counting (1 scala source)
+2023.09.23 16:55:54 INFO  time: compiled counting in 0.45s
+2023.09.23 16:55:54 INFO  compiling counting (1 scala source)
+2023.09.23 16:55:54 INFO  time: compiled counting in 0.18s
+Sept 23, 2023 4:55:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 800
+2023.09.23 16:56:01 INFO  compiling counting (1 scala source)
+2023.09.23 16:56:01 INFO  time: compiled counting in 0.47s
+2023.09.23 16:56:05 INFO  compiling counting (1 scala source)
+2023.09.23 16:56:05 INFO  time: compiled counting in 0.51s
+2023.09.23 16:56:07 INFO  compiling counting (1 scala source)
+2023.09.23 16:56:07 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:56:07 INFO  time: compiled counting in 0.74s
+Sept 23, 2023 4:56:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 846
+2023.09.23 16:56:45 INFO  compiling counting (1 scala source)
+2023.09.23 16:56:45 INFO  time: compiled counting in 0.46s
+2023.09.23 16:57:07 INFO  compiling counting (1 scala source)
+2023.09.23 16:57:07 INFO  time: compiled counting in 0.46s
+2023.09.23 16:57:19 INFO  time: code lens generation in 1.24s
+2023.09.23 16:57:37 INFO  compiling counting (1 scala source)
+2023.09.23 16:57:37 INFO  time: compiled counting in 0.48s
+2023.09.23 16:57:49 INFO  compiling counting (1 scala source)
+2023.09.23 16:57:49 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:57:49 INFO  time: compiled counting in 0.5s
+2023.09.23 16:58:00 INFO  compiling counting (1 scala source)
+2023.09.23 16:58:00 INFO  time: compiled counting in 84ms
+Sept 23, 2023 4:58:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:915)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:468)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Sept 23, 2023 4:58:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:915)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:468)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.09.23 16:58:11 INFO  compiling counting (1 scala source)
+2023.09.23 16:58:11 INFO  time: compiled counting in 0.11s
+Sept 23, 2023 4:58:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:915)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:468)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.09.23 16:58:16 INFO  compiling counting (1 scala source)
+2023.09.23 16:58:16 INFO  time: compiled counting in 84ms
+Sept 23, 2023 4:58:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1161
+2023.09.23 16:58:40 INFO  compiling counting (1 scala source)
+2023.09.23 16:58:40 INFO  time: compiled counting in 63ms
+2023.09.23 16:58:56 INFO  compiling counting (1 scala source)
+2023.09.23 16:58:56 INFO  time: compiled counting in 64ms
+2023.09.23 16:58:58 INFO  compiling counting (1 scala source)
+2023.09.23 16:58:58 INFO  time: compiled counting in 53ms
+2023.09.23 16:59:00 INFO  compiling counting (1 scala source)
+2023.09.23 16:59:00 INFO  time: compiled counting in 0.46s
+2023.09.23 16:59:10 INFO  compiling counting (1 scala source)
+2023.09.23 16:59:10 INFO  time: compiled counting in 0.66s
+2023.09.23 16:59:16 INFO  compiling counting (1 scala source)
+2023.09.23 16:59:16 INFO  time: compiled counting in 53ms
+2023.09.23 16:59:16 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:59:16 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:59:21 INFO  compiling counting (1 scala source)
+2023.09.23 16:59:21 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 16:59:21 INFO  time: compiled counting in 0.62s
+2023.09.23 16:59:40 INFO  compiling counting (1 scala source)
+2023.09.23 16:59:40 INFO  time: compiled counting in 0.48s
+2023.09.23 17:02:55 INFO  compiling counting (1 scala source)
+2023.09.23 17:02:55 INFO  time: compiled counting in 0.52s
+Sept 23, 2023 5:02:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1513
+2023.09.23 17:03:05 INFO  compiling counting (1 scala source)
+2023.09.23 17:03:05 INFO  time: compiled counting in 0.47s
+Sept 23, 2023 5:03:49 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Range [219, 219 + -1) out of bounds for length 258
+2023.09.23 17:03:53 INFO  compiling counting (1 scala source)
+2023.09.23 17:03:53 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:03:53 INFO  time: compiled counting in 0.59s
+2023.09.23 17:04:04 INFO  compiling counting (1 scala source)
+2023.09.23 17:04:04 INFO  time: compiled counting in 62ms
+2023.09.23 17:05:15 INFO  compiling counting (1 scala source)
+2023.09.23 17:05:15 INFO  time: compiled counting in 87ms
+Sept 23, 2023 5:06:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1958
+Sept 23, 2023 5:06:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1957
+2023.09.23 17:06:03 INFO  compiling counting (1 scala source)
+2023.09.23 17:06:03 INFO  time: compiled counting in 50ms
+2023.09.23 17:06:04 INFO  compiling counting (1 scala source)
+2023.09.23 17:06:04 INFO  time: compiled counting in 48ms
+2023.09.23 17:07:10 INFO  compiling counting (1 scala source)
+2023.09.23 17:07:10 INFO  time: compiled counting in 61ms
+2023.09.23 17:07:20 INFO  compiling counting (1 scala source)
+2023.09.23 17:07:20 INFO  time: compiled counting in 46ms
+2023.09.23 17:07:39 INFO  compiling counting (1 scala source)
+2023.09.23 17:07:39 INFO  time: compiled counting in 50ms
+Sept 23, 2023 5:08:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2140
+2023.09.23 17:08:21 INFO  compiling counting (1 scala source)
+2023.09.23 17:08:21 INFO  time: compiled counting in 74ms
+2023.09.23 17:08:22 INFO  compiling counting (1 scala source)
+2023.09.23 17:08:22 INFO  time: compiled counting in 43ms
+2023.09.23 17:08:30 INFO  compiling counting (1 scala source)
+2023.09.23 17:08:30 INFO  time: compiled counting in 72ms
+2023.09.23 17:08:32 INFO  compiling counting (1 scala source)
+2023.09.23 17:08:32 INFO  time: compiled counting in 58ms
+2023.09.23 17:08:32 INFO  compiling counting (1 scala source)
+2023.09.23 17:08:32 INFO  time: compiled counting in 41ms
+2023.09.23 17:08:32 INFO  compiling counting (1 scala source)
+2023.09.23 17:08:32 INFO  time: compiled counting in 50ms
+2023.09.23 17:08:35 INFO  Shutting down server
+2023.09.23 17:08:35 INFO  shutting down Metals
+2023.09.23 17:08:35 INFO  Shut down connection with build server.
+2023.09.23 17:08:35 INFO  Shut down connection with build server.
+2023.09.23 17:08:35 INFO  Exiting server
+2023.09.23 17:08:43 INFO  Started: Metals version 1.0.1 in folders 'D:\jayva\Scala Counting\counting' for client Visual Studio Code 1.82.2.
+Sept 23, 2023 5:08:43 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sept 23, 2023 5:08:43 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sept 23, 2023 5:08:43 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sept 23, 2023 5:08:43 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:D:\jayva\Scala Counting\counting\.metals\metals (H2 2.1)
+Sept 23, 2023 5:08:43 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.023s)
+Sept 23, 2023 5:08:43 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sept 23, 2023 5:08:43 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.23 17:08:43 INFO  time: initialize in 0.75s
+2023.09.23 17:08:45 INFO  Attempting to connect to the build server...
+2023.09.23 17:08:45 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\arnav\.bloop\bloop.json
+2023.09.23 17:08:45 INFO  skipping build import with status 'Installed'
+2023.09.23 17:08:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\jayva\Scala Counting\counting\.metals\bsp.trace.json or C:\Users\arnav\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.23 17:08:45 INFO  Attempting to connect to the build server...
+2023.09.23 17:08:45 INFO  Bloop uses C:\Program Files\Java\jdk-18.0.1.1 defined at C:\Users\arnav\.bloop\bloop.json
+2023.09.23 17:08:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\jayva\Scala Counting\counting\project\.metals\bsp.trace.json or C:\Users\arnav\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.23 17:08:45 INFO  time: Connected to build server in 0.32s
+2023.09.23 17:08:45 INFO  Connected to Build server: Bloop v1.5.8
+2023.09.23 17:08:48 INFO  no build target found for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Sept 23, 2023 5:08:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Sept 23, 2023 5:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Sept 23, 2023 5:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Sept 23, 2023 5:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Sept 23, 2023 5:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Sept 23, 2023 5:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Sept 23, 2023 5:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Sept 23, 2023 5:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+Sept 23, 2023 5:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2023.09.23 17:08:50 INFO  compiling counting (1 scala source)
+2023.09.23 17:08:50 INFO  time: compiled counting in 0.29s
+Sept 23, 2023 5:08:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:915)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:468)
+	at scala.meta.internal.metals.debug.DebugProvider.runCommandDiscovery(DebugProvider.scala:420)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1676)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:686)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.09.23 17:08:53 INFO  time: indexed workspace in 4.08s
+2023.09.23 17:08:53 INFO  compiling counting (1 scala source)
+2023.09.23 17:08:54 INFO  time: compiled counting in 1.35s
+2023.09.23 17:08:54 INFO  compiling counting (1 scala source)
+2023.09.23 17:08:54 INFO  time: compiled counting in 0.12s
+2023.09.23 17:09:54 INFO  compiling counting (1 scala source)
+2023.09.23 17:09:54 INFO  time: compiled counting in 0.69s
+Sept 23, 2023 5:10:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 119
+2023.09.23 17:10:22 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:10:22 INFO  compiling counting (1 scala source)
+2023.09.23 17:10:22 INFO  time: compiled counting in 0.63s
+2023.09.23 17:10:30 INFO  compiling counting (1 scala source)
+2023.09.23 17:10:30 INFO  time: compiled counting in 0.69s
+2023.09.23 17:10:49 INFO  compiling counting (1 scala source)
+2023.09.23 17:10:49 INFO  time: compiled counting in 53ms
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.09.23 17:12:21 INFO  compiling counting (1 scala source)
+2023.09.23 17:12:21 INFO  time: compiled counting in 96ms
+2023.09.23 17:12:23 INFO  compiling counting (1 scala source)
+2023.09.23 17:12:23 INFO  time: compiled counting in 0.16s
+2023.09.23 17:12:32 INFO  compiling counting (1 scala source)
+2023.09.23 17:12:32 INFO  time: compiled counting in 0.89s
+2023.09.23 17:12:48 INFO  compiling counting (1 scala source)
+2023.09.23 17:12:48 INFO  time: compiled counting in 0.77s
+2023.09.23 17:12:52 INFO  compiling counting (1 scala source)
+2023.09.23 17:12:52 INFO  time: compiled counting in 0.81s
+2023.09.23 17:12:59 INFO  compiling counting (1 scala source)
+2023.09.23 17:12:59 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:12:59 INFO  time: compiled counting in 0.58s
+2023.09.23 17:12:59 INFO  compiling counting (1 scala source)
+2023.09.23 17:12:59 INFO  time: compiled counting in 0.15s
+2023.09.23 17:13:22 INFO  compiling counting (1 scala source)
+2023.09.23 17:13:22 INFO  time: compiled counting in 0.66s
+2023.09.23 17:13:31 ERROR Failed to tokenize input for semantic tokens for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:19: error: Invalid literal number
+    for(i <- 0 5o )
+               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:856)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:900)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:908)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:368)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.23 17:14:13 INFO  compiling counting (1 scala source)
+2023.09.23 17:14:13 INFO  time: compiled counting in 77ms
+2023.09.23 17:14:18 INFO  compiling counting (1 scala source)
+2023.09.23 17:14:18 INFO  time: compiled counting in 92ms
+2023.09.23 17:14:20 INFO  compiling counting (1 scala source)
+2023.09.23 17:14:20 INFO  time: compiled counting in 88ms
+2023.09.23 17:14:23 INFO  compiling counting (1 scala source)
+2023.09.23 17:14:23 INFO  time: compiled counting in 71ms
+2023.09.23 17:14:27 INFO  compiling counting (1 scala source)
+Sept 23, 2023 5:14:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 915
+2023.09.23 17:14:27 INFO  time: compiled counting in 0.11s
+2023.09.23 17:14:30 INFO  compiling counting (1 scala source)
+2023.09.23 17:14:30 INFO  time: compiled counting in 79ms
+2023.09.23 17:14:38 INFO  compiling counting (1 scala source)
+2023.09.23 17:14:38 INFO  time: compiled counting in 0.64s
+2023.09.23 17:14:40 INFO  compiling counting (1 scala source)
+2023.09.23 17:14:40 INFO  time: compiled counting in 0.61s
+Sept 23, 2023 5:14:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1010
+2023.09.23 17:14:58 INFO  compiling counting (1 scala source)
+2023.09.23 17:14:58 INFO  time: compiled counting in 79ms
+2023.09.23 17:15:07 INFO  compiling counting (1 scala source)
+2023.09.23 17:15:07 INFO  time: compiled counting in 0.63s
+Sept 23, 2023 5:15:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1184
+2023.09.23 17:17:13 INFO  compiling counting (1 scala source)
+2023.09.23 17:17:13 INFO  time: compiled counting in 52ms
+Exception in thread "pool-5-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.09.23 17:17:15 INFO  compiling counting (1 scala source)
+2023.09.23 17:17:15 INFO  time: compiled counting in 46ms
+2023.09.23 17:17:19 INFO  compiling counting (1 scala source)
+2023.09.23 17:17:19 INFO  time: compiled counting in 49ms
+2023.09.23 17:17:30 INFO  compiling counting (1 scala source)
+2023.09.23 17:17:30 INFO  time: compiled counting in 79ms
+2023.09.23 17:18:10 INFO  compiling counting (1 scala source)
+2023.09.23 17:18:10 INFO  time: compiled counting in 94ms
+2023.09.23 17:18:14 INFO  compiling counting (1 scala source)
+2023.09.23 17:18:14 INFO  time: compiled counting in 78ms
+2023.09.23 17:18:15 INFO  compiling counting (1 scala source)
+2023.09.23 17:18:15 INFO  time: compiled counting in 91ms
+2023.09.23 17:18:19 INFO  compiling counting (1 scala source)
+2023.09.23 17:18:19 INFO  time: compiled counting in 86ms
+Sept 23, 2023 5:18:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1900
+2023.09.23 17:18:48 ERROR Failed to tokenize input for semantic tokens for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string literal
+  var selectValue: Int = "
+                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.23 17:18:49 INFO  compiling counting (1 scala source)
+2023.09.23 17:18:49 INFO  time: compiled counting in 0.11s
+2023.09.23 17:18:52 INFO  compiling counting (1 scala source)
+2023.09.23 17:18:52 INFO  time: compiled counting in 67ms
+2023.09.23 17:18:54 INFO  compiling counting (1 scala source)
+2023.09.23 17:18:54 INFO  time: compiled counting in 78ms
+2023.09.23 17:19:11 INFO  compiling counting (1 scala source)
+2023.09.23 17:19:11 INFO  time: compiled counting in 79ms
+2023.09.23 17:19:17 INFO  compiling counting (1 scala source)
+2023.09.23 17:19:17 INFO  time: compiled counting in 76ms
+2023.09.23 17:19:23 INFO  compiling counting (1 scala source)
+2023.09.23 17:19:23 INFO  time: compiled counting in 78ms
+2023.09.23 17:19:28 INFO  compiling counting (1 scala source)
+2023.09.23 17:19:28 INFO  time: compiled counting in 0.6s
+2023.09.23 17:19:31 INFO  compiling counting (1 scala source)
+2023.09.23 17:19:31 INFO  time: compiled counting in 0.56s
+2023.09.23 17:19:45 INFO  compiling counting (1 scala source)
+2023.09.23 17:19:45 INFO  time: compiled counting in 0.59s
+Sept 23, 2023 5:19:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2165
+2023.09.23 17:20:50 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:20:50 INFO  compiling counting (1 scala source)
+2023.09.23 17:20:50 INFO  time: compiled counting in 0.13s
+2023.09.23 17:20:50 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:20:52 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:20:52 INFO  compiling counting (1 scala source)
+2023.09.23 17:20:52 INFO  time: compiled counting in 88ms
+2023.09.23 17:20:52 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:20:59 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:20:59 INFO  compiling counting (1 scala source)
+2023.09.23 17:20:59 INFO  time: compiled counting in 75ms
+2023.09.23 17:21:00 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:20:59 INFO  compiling counting (1 scala source)
+2023.09.23 17:20:59 INFO  time: compiled counting in 56ms
+2023.09.23 17:21:00 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:03 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:05 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:07 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:07 INFO  compiling counting (1 scala source)
+2023.09.23 17:21:07 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:07 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:07 INFO  time: compiled counting in 0.1s
+2023.09.23 17:21:08 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:10 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:10 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:10 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:10 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:10 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:10 INFO  compiling counting (1 scala source)
+2023.09.23 17:21:10 INFO  time: compiled counting in 85ms
+2023.09.23 17:21:11 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:12 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:12 INFO  compiling counting (1 scala source)
+2023.09.23 17:21:12 INFO  time: compiled counting in 82ms
+2023.09.23 17:21:13 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:19 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:21 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:22 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:24 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:27 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:27 INFO  compiling counting (1 scala source)
+2023.09.23 17:21:27 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:27 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:27 INFO  time: compiled counting in 94ms
+2023.09.23 17:21:27 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:29 INFO  compiling counting (1 scala source)
+2023.09.23 17:21:29 INFO  time: compiled counting in 69ms
+2023.09.23 17:21:30 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:37 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:37 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:41 INFO  compiling counting (1 scala source)
+2023.09.23 17:21:41 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:21:41 INFO  time: compiled counting in 0.58s
+2023.09.23 17:21:42 INFO  compiling counting (1 scala source)
+2023.09.23 17:21:42 INFO  time: compiled counting in 0.16s
+2023.09.23 17:21:55 INFO  compiling counting (1 scala source)
+2023.09.23 17:21:55 INFO  time: compiled counting in 72ms
+2023.09.23 17:22:00 INFO  compiling counting (1 scala source)
+2023.09.23 17:22:00 INFO  time: compiled counting in 0.81s
+2023.09.23 17:22:02 INFO  compiling counting (1 scala source)
+2023.09.23 17:22:02 INFO  time: compiled counting in 0.65s
+2023.09.23 17:22:13 INFO  compiling counting (1 scala source)
+2023.09.23 17:22:13 INFO  time: compiled counting in 0.67s
+2023.09.23 17:22:42 INFO  compiling counting (1 scala source)
+2023.09.23 17:22:42 INFO  time: compiled counting in 0.65s
+2023.09.23 17:23:29 WARN  Using indexes to guess the definition of NumberFormatException
+2023.09.23 17:23:29 INFO  Report absolute-path: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java
+Uri: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java
+
+
+error stacktrace:
+java.base/java.net.URI.create(URI.java:906)
+	scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePathSafe(MetalsEnrichments.scala:614)
+	scala.meta.internal.metals.WorkspaceLspService.getServiceFor(WorkspaceLspService.scala:246)
+	scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:670)
+	scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	java.base/java.lang.Thread.run(Thread.java:833)
+
+Sept 23, 2023 5:23:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Java/jdk-18.0.1.1/lib/src.zip%21/java.base/java/lang/NumberFormatException.java",
+      "languageId": "java",
+      "version": 1,
+      "text": "/*\n * Copyright (c) 1994, 2020, Oracle and/or its affiliates. All rights reserved.\n * ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n *\n */\n\npackage java.lang;\n\n/**\n * Thrown to indicate that the application has attempted to convert\n * a string to one of the numeric types, but that the string does not\n * have the appropriate format.\n *\n * @see     java.lang.Integer#parseInt(String)\n * @since   1.0\n */\npublic class NumberFormatException extends IllegalArgumentException {\n    @java.io.Serial\n    static final long serialVersionUID \u003d -2848938806368998894L;\n\n    /**\n     * Constructs a {@code NumberFormatException} with no detail message.\n     */\n    public NumberFormatException () {\n        super();\n    }\n\n    /**\n     * Constructs a {@code NumberFormatException} with the\n     * specified detail message.\n     *\n     * @param   s   the detail message.\n     */\n    public NumberFormatException (String s) {\n        super (s);\n    }\n\n    /**\n     * Factory method for making a {@code NumberFormatException}\n     * given the specified input which caused the error.\n     *\n     * @param   s   the input causing the error\n     */\n    static NumberFormatException forInputString(String s, int radix) {\n        return new NumberFormatException(\"For input string: \\\"\" + s + \"\\\"\" +\n                                         (radix \u003d\u003d 10 ?\n                                          \"\" :\n                                          \" under radix \" + radix));\n    }\n\n    /**\n     * Factory method for making a {@code NumberFormatException}\n     * given the specified input which caused the error.\n     *\n     * @param   s   the input causing the error\n     * @param   beginIndex   the beginning index, inclusive.\n     * @param   endIndex     the ending index, exclusive.\n     * @param   errorIndex   the index of the first error in s\n     */\n    static NumberFormatException forCharSequence(CharSequence s,\n            int beginIndex, int endIndex, int errorIndex) {\n        return new NumberFormatException(\"Error at index \"\n                + (errorIndex - beginIndex) + \" in: \\\"\"\n                + s.subSequence(beginIndex, endIndex) + \"\\\"\");\n    }\n}\n"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:319)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2973)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3144)
+	at java.base/java.net.URI$Parser.parse(URI.java:3180)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 22 more
+
+Sept 23, 2023 5:23:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Program%20Files/Java/jdk-18.0.1.1/lib/src.zip%21/java.base/java/lang/NumberFormatException.java"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:177)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:174)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:174)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:631)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:628)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:329)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 13 more
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 22: jar:file:///C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2973)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3144)
+	at java.base/java.net.URI$Parser.parse(URI.java:3180)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 22 more
+
+Sept 23, 2023 5:23:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2695
+2023.09.23 17:23:32 INFO  compiling counting (1 scala source)
+2023.09.23 17:23:32 INFO  time: compiled counting in 0.2s
+2023.09.23 17:23:52 INFO  compiling counting (1 scala source)
+2023.09.23 17:23:52 INFO  time: compiled counting in 97ms
+2023.09.23 17:23:59 INFO  compiling counting (1 scala source)
+2023.09.23 17:23:59 INFO  time: compiled counting in 43ms
+Sept 23, 2023 5:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2764
+2023.09.23 17:24:01 INFO  compiling counting (1 scala source)
+2023.09.23 17:24:01 INFO  time: compiled counting in 0.1s
+2023.09.23 17:24:06 INFO  compiling counting (1 scala source)
+2023.09.23 17:24:06 INFO  time: compiled counting in 0.85s
+2023.09.23 17:24:18 INFO  compiling counting (1 scala source)
+2023.09.23 17:24:18 INFO  time: compiled counting in 0.7s
+2023.09.23 17:24:30 INFO  compiling counting (1 scala source)
+2023.09.23 17:24:30 INFO  time: compiled counting in 0.6s
+2023.09.23 17:24:43 INFO  compiling counting (1 scala source)
+2023.09.23 17:24:43 INFO  time: compiled counting in 0.63s
+2023.09.23 17:25:19 INFO  compiling counting (1 scala source)
+2023.09.23 17:25:19 INFO  time: compiled counting in 0.71s
+2023.09.23 17:25:24 INFO  compiling counting (1 scala source)
+2023.09.23 17:25:24 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:25:24 INFO  time: compiled counting in 0.87s
+Sept 23, 2023 5:25:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2990
+2023.09.23 17:25:43 INFO  compiling counting (1 scala source)
+2023.09.23 17:25:43 INFO  time: compiled counting in 0.82s
+2023.09.23 17:26:48 INFO  compiling counting (1 scala source)
+2023.09.23 17:26:48 INFO  time: compiled counting in 0.88s
+2023.09.23 17:27:02 INFO  compiling counting (1 scala source)
+2023.09.23 17:27:02 INFO  time: compiled counting in 53ms
+2023.09.23 17:27:21 INFO  compiling counting (1 scala source)
+2023.09.23 17:27:21 INFO  time: compiled counting in 0.64s
+2023.09.23 17:27:29 INFO  compiling counting (1 scala source)
+2023.09.23 17:27:29 INFO  time: compiled counting in 0.73s
+2023.09.23 17:27:44 INFO  compiling counting (1 scala source)
+2023.09.23 17:27:44 INFO  time: compiled counting in 0.67s
+2023.09.23 17:27:59 INFO  compiling counting (1 scala source)
+2023.09.23 17:27:59 INFO  time: compiled counting in 0.66s
+2023.09.23 17:28:14 INFO  compiling counting (1 scala source)
+2023.09.23 17:28:14 INFO  time: compiled counting in 82ms
+2023.09.23 17:28:14 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:28:35 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:28:36 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:28:39 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:28:39 INFO  compiling counting (1 scala source)
+2023.09.23 17:28:39 INFO  time: compiled counting in 83ms
+2023.09.23 17:28:39 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:28:46 INFO  compiling counting (1 scala source)
+2023.09.23 17:28:46 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:28:46 INFO  time: compiled counting in 75ms
+2023.09.23 17:28:47 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:28:59 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:01 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:01 INFO  compiling counting (1 scala source)
+2023.09.23 17:29:01 INFO  time: compiled counting in 83ms
+2023.09.23 17:29:01 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:03 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:03 INFO  compiling counting (1 scala source)
+2023.09.23 17:29:03 INFO  time: compiled counting in 0.1s
+2023.09.23 17:29:03 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:10 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:13 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:13 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:13 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:13 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:13 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:13 INFO  compiling counting (1 scala source)
+2023.09.23 17:29:13 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:13 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:13 INFO  time: compiled counting in 0.14s
+2023.09.23 17:29:14 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:15 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:29:15 INFO  compiling counting (1 scala source)
+2023.09.23 17:29:15 INFO  time: compiled counting in 0.63s
+2023.09.23 17:29:25 ERROR Failed to tokenize input for semantic tokens for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed string interpolation
+    println(s"Invalid input on lottery ticket slot: ${index")
+                                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:697)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.23 17:29:27 ERROR Failed to tokenize input for semantic tokens for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed string literal
+    println(s"Invalid input on lottery ticket slot: ${index ")
+                                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.23 17:29:27 ERROR Failed to tokenize input for semantic tokens for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed string literal
+    println(s"Invalid input on lottery ticket slot: ${index + 1")
+                                                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.23 17:29:28 ERROR Failed to tokenize input for semantic tokens for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed string literal
+    println(s"Invalid input on lottery ticket slot: ${index + 1")
+                                                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.23 17:29:28 ERROR Failed to tokenize input for semantic tokens for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed string literal
+    println(s"Invalid input on lottery ticket slot: ${index + 1{")
+                                                                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:591)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.23 17:29:29 INFO  compiling counting (1 scala source)
+2023.09.23 17:29:29 INFO  time: compiled counting in 0.61s
+2023.09.23 17:29:31 INFO  compiling counting (1 scala source)
+2023.09.23 17:29:31 INFO  time: compiled counting in 0.63s
+2023.09.23 17:29:48 INFO  compiling counting (1 scala source)
+2023.09.23 17:29:48 INFO  time: compiled counting in 0.62s
+2023.09.23 17:29:56 INFO  compiling counting (1 scala source)
+Sept 23, 2023 5:29:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3664
+2023.09.23 17:29:56 INFO  time: compiled counting in 0.63s
+2023.09.23 17:30:14 INFO  compiling counting (1 scala source)
+2023.09.23 17:30:14 INFO  time: compiled counting in 50ms
+2023.09.23 17:30:18 INFO  compiling counting (1 scala source)
+2023.09.23 17:30:18 INFO  time: compiled counting in 81ms
+2023.09.23 17:30:23 INFO  compiling counting (1 scala source)
+2023.09.23 17:30:23 INFO  time: compiled counting in 0.67s
+2023.09.23 17:30:37 INFO  compiling counting (1 scala source)
+2023.09.23 17:30:37 INFO  time: compiled counting in 0.89s
+Sept 23, 2023 5:31:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3843
+2023.09.23 17:31:31 INFO  compiling counting (1 scala source)
+2023.09.23 17:31:31 INFO  time: compiled counting in 97ms
+2023.09.23 17:31:33 INFO  compiling counting (1 scala source)
+2023.09.23 17:31:33 INFO  time: compiled counting in 93ms
+Sept 23, 2023 5:31:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4002
+2023.09.23 17:31:40 INFO  compiling counting (1 scala source)
+2023.09.23 17:31:40 INFO  time: compiled counting in 0.61s
+2023.09.23 17:31:41 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:31:41 INFO  compiling counting (1 scala source)
+2023.09.23 17:31:41 INFO  time: compiled counting in 0.73s
+something's wrong: no file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala, 1132, 1132, 1140)
+something's wrong: no file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala, 1132, 1132, 1147)
+something's wrong: no file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala, 1132, 1132, 1142)
+something's wrong: no file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala, 1132, 1132, 1147)
+something's wrong: no file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala, 1132, 1132, 1142)
+something's wrong: no file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala, 1132, 1132, 1142)
+something's wrong: no file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala, 1132, 1132, 1142)
+something's wrong: no file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala, 1155, 1155, 1170)
+something's wrong: no file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala in Array[Int]RangePosition(file:///D:/jayva/Scala%20Counting/counting/src/main/scala/Main.scala, 1155, 1155, 1165)
+2023.09.23 17:36:12 INFO  compiling counting (1 scala source)
+2023.09.23 17:36:12 INFO  time: compiled counting in 0.65s
+Sept 23, 2023 5:36:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4247
+2023.09.23 17:36:24 INFO  compiling counting (1 scala source)
+2023.09.23 17:36:24 INFO  time: compiled counting in 69ms
+2023.09.23 17:37:23 INFO  compiling counting (1 scala source)
+2023.09.23 17:37:23 INFO  time: compiled counting in 0.68s
+2023.09.23 17:37:26 INFO  compiling counting (1 scala source)
+Sept 23, 2023 5:37:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4324
+2023.09.23 17:37:26 INFO  Deduplicating compilation of counting from bsp client 'Metals 1.0.1' (since 28m 40.799s)
+2023.09.23 17:37:26 INFO  compiling counting (1 scala source)
+2023.09.23 17:37:26 INFO  time: compiled counting in 0.15s
+2023.09.23 17:37:39 INFO  compiling counting (1 scala source)
+2023.09.23 17:37:39 INFO  time: compiled counting in 0.63s
+2023.09.23 17:37:41 INFO  compiling counting (1 scala source)
+2023.09.23 17:37:41 INFO  time: compiled counting in 0.17s
+2023.09.23 17:37:42 INFO  compiling counting (1 scala source)
+2023.09.23 17:37:42 INFO  time: compiled counting in 0.16s
+2023.09.23 17:37:45 INFO  compiling counting (1 scala source)
+2023.09.23 17:37:45 INFO  time: compiled counting in 0.6s
+2023.09.23 17:37:49 INFO  compiling counting (1 scala source)
+2023.09.23 17:37:49 INFO  time: compiled counting in 70ms
+2023.09.23 17:37:49 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:37:56 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:37:56 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:37:58 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:37:58 INFO  compiling counting (1 scala source)
+2023.09.23 17:37:58 INFO  time: compiled counting in 0.63s
+Sept 23, 2023 5:37:59 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: Range [1207, 1207 + -1) out of bounds for length 1253
+2023.09.23 17:38:00 INFO  compiling counting (1 scala source)
+2023.09.23 17:38:00 INFO  time: compiled counting in 48ms
+2023.09.23 17:38:00 INFO  compiling counting (1 scala source)
+2023.09.23 17:38:01 INFO  time: compiled counting in 19ms
+2023.09.23 17:38:26 INFO  compiling counting (1 scala source)
+2023.09.23 17:38:26 INFO  time: compiled counting in 0.71s
+2023.09.23 17:38:28 INFO  compiling counting (1 scala source)
+2023.09.23 17:38:28 INFO  time: compiled counting in 0.7s
+2023.09.23 17:38:35 INFO  compiling counting (1 scala source)
+2023.09.23 17:38:35 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:38:35 INFO  time: compiled counting in 0.9s
+2023.09.23 17:38:37 INFO  compiling counting (1 scala source)
+2023.09.23 17:38:37 INFO  time: compiled counting in 0.15s
+2023.09.23 17:39:16 INFO  compiling counting (1 scala source)
+2023.09.23 17:39:16 INFO  time: compiled counting in 0.12s
+2023.09.23 17:39:17 WARN  Using indexes to guess the definition of Array
+2023.09.23 17:39:16 INFO  compiling counting (1 scala source)
+2023.09.23 17:39:16 INFO  time: compiled counting in 60ms
+2023.09.23 17:39:38 INFO  compiling counting (1 scala source)
+2023.09.23 17:39:38 INFO  time: compiled counting in 51ms
+2023.09.23 17:39:42 INFO  compiling counting (1 scala source)
+2023.09.23 17:39:42 INFO  time: compiled counting in 0.65s
+2023.09.23 17:39:54 INFO  compiling counting (1 scala source)
+2023.09.23 17:39:54 INFO  time: compiled counting in 0.71s
+2023.09.23 17:39:56 INFO  compiling counting (1 scala source)
+2023.09.23 17:39:56 INFO  time: compiled counting in 0.69s
+2023.09.23 17:39:59 INFO  compiling counting (1 scala source)
+2023.09.23 17:39:59 INFO  time: compiled counting in 0.64s
+2023.09.23 17:40:03 INFO  compiling counting (1 scala source)
+2023.09.23 17:40:03 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:40:03 INFO  time: compiled counting in 0.69s
+2023.09.23 17:40:06 INFO  compiling counting (1 scala source)
+2023.09.23 17:40:06 INFO  time: compiled counting in 0.66s
+2023.09.23 17:40:08 INFO  compiling counting (1 scala source)
+2023.09.23 17:40:08 INFO  time: compiled counting in 0.74s
+2023.09.23 17:40:16 INFO  compiling counting (1 scala source)
+2023.09.23 17:40:16 INFO  time: compiled counting in 0.66s
+Sept 23, 2023 5:40:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4941
+Sept 23, 2023 5:40:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4945
+2023.09.23 17:40:53 INFO  compiling counting (1 scala source)
+2023.09.23 17:40:53 INFO  time: compiled counting in 0.64s
+2023.09.23 17:40:55 INFO  compiling counting (1 scala source)
+2023.09.23 17:40:55 INFO  time: compiled counting in 28ms
+2023.09.23 17:40:56 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:40:55 INFO  compiling counting (1 scala source)
+2023.09.23 17:40:55 INFO  time: compiled counting in 22ms
+2023.09.23 17:40:56 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:00 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:00 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:02 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:03 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:05 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:06 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:09 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:10 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:12 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:13 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:14 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:14 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:16 INFO  compiling counting (1 scala source)
+2023.09.23 17:41:16 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:41:16 INFO  time: compiled counting in 0.67s
+2023.09.23 17:41:20 INFO  compiling counting (1 scala source)
+2023.09.23 17:41:20 INFO  time: compiled counting in 0.92s
+2023.09.23 17:43:52 INFO  compiling counting (1 scala source)
+2023.09.23 17:43:52 INFO  time: compiled counting in 0.72s
+2023.09.23 17:44:17 INFO  compiling counting (1 scala source)
+2023.09.23 17:44:17 INFO  time: compiled counting in 0.85s
+2023.09.23 17:44:19 INFO  compiling counting (1 scala source)
+2023.09.23 17:44:20 WARN  Could not load snapshot text for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+2023.09.23 17:44:19 INFO  time: compiled counting in 0.74s
+2023.09.23 17:44:27 INFO  compiling counting (1 scala source)
+2023.09.23 17:44:27 INFO  time: compiled counting in 87ms
+2023.09.23 17:44:44 INFO  compiling counting (1 scala source)
+2023.09.23 17:44:44 INFO  time: compiled counting in 0.79s
+2023.09.23 17:44:55 ERROR Failed to tokenize input for semantic tokens for D:\jayva\Scala Counting\counting\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:38: error: `$$', `$'ident, `$'this, `$'BlockExpr`$'_
+    println(s"Your score is: $")
+              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:687)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:392)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:411)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:246)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1047)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:511)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.09.23 17:44:57 INFO  compiling counting (1 scala source)
+2023.09.23 17:44:57 INFO  time: compiled counting in 0.79s
+Sept 23, 2023 5:45:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5538
+Sept 23, 2023 5:45:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5690
+2023.09.23 17:46:43 INFO  compiling counting (1 scala source)
+2023.09.23 17:46:43 INFO  time: compiled counting in 0.72s
+2023.09.23 17:46:45 INFO  compiling counting (1 scala source)
+2023.09.23 17:46:45 INFO  time: compiled counting in 0.75s
+2023.09.23 17:47:38 INFO  compiling counting (1 scala source)
+2023.09.23 17:47:38 INFO  time: compiled counting in 0.66s
